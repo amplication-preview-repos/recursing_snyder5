@@ -3,6 +3,8 @@ import { ContactModule } from "./contact/contact.module";
 import { CallModule } from "./call/call.module";
 import { MessageModule } from "./message/message.module";
 import { UserModule } from "./user/user.module";
+import { KeyManagementModule } from "./KeyManagement/keymanagement.module";
+import { WebRtcSignalingModule } from "./WebRtcSignaling/webrtcsignaling.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -24,6 +26,8 @@ import { AuthModule } from "./auth/auth.module";
     CallModule,
     MessageModule,
     UserModule,
+    KeyManagementModule,
+    WebRtcSignalingModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
